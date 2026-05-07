@@ -1,0 +1,23 @@
+portfolio-ultimate/
+├── public/
+│   ├── projects/          # Project images
+│   ├── skills/            # Skill icons
+│   └── favicons/
+├── src/
+│   ├── components/
+│   │   ├── Hero.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── MasonryGallery.tsx
+│   │   ├── CaseStudyShowcase.tsx
+│   │   ├── SkillsRadar.tsx
+│   │   └── AnimatedBackground.tsx
+│   ├── pages/
+│   │   ├── index.tsx      # Main page
+│   │   └── api/           # GitHub API routes
+│   ├── styles/
+│   │   └── globals.css
+│   └── hooks/
+│       ├── useGitHub.ts
+│       └── useScrollAnimation.ts
+├── package.json
+└── next.config.js
